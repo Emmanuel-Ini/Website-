@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container">
+      <nav>
+      
+<img src="logo.jpg" alt="Logo" class="logo"/></span>
+        </a>
+ <div id="links" role="menubar">
+  <a role="menuitem" href="#live">Live</a>
+ <a role="menuitem" href="#shows">Shows</a>
+<a role="menuitem" href="#on-demand">On Demand</a>
+<a role="menuitem" href="#news">News</a>
+<a role="menuitem" href="#schedule">Schedule</a>
+<a role="menuitem" href="#about">About</a>
+   </div>
+
+  <div class="links">
+<a class="btn btn-outline" href="#signin">Sign in</a>
+<a class="btn btn-primary" href="#subscribe">Subscribe</a>
+        </div>
+
+        <!-- Mobile menu button -->
+<button class="menu" id="navMenu" onclick="toggleMenu()">&#9776;</button>
+      </nav>
+    </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Live teaser -->
+  <section class="hero-section" id="home">
+    <div class="container hero-wrap">
+      <div class="hero-copy">
+        <span class="tag">Streaming • Live • On‑Demand</span>
+        <h1 class="brand-title" style="margin:.5rem 0 1rem; font-size:clamp(2.3rem,4.6vw,4rem); color:var(--brand)">Ibom TV</h1>
+        <p style="max-width:58ch; color:#374151; background-color:;"; >Your home for premium shows, breaking news, sports, culture and movies. Stream live channels or dive into a world of on demand stories any screen, anywhere.</p>
+        <div style="display:flex; gap:.8rem; flex-wrap:wrap; margin-top:1rem">
+          <a class="btn btn-primary" href="#live">Watch Live</a>
+          <a class="btn" style="background:#eef6ff; color:var(--brand)" href="#on-demand">Browse Library</a>
+        </div>
+
+      </div>
+
+      <figure class="hero-card" aria-label="Live TV preview" id="live">
+        <span class="hero-stripes" aria-hidden="true"></span>
+        <a class="play" href="#signin" aria-label="Play">
+          <span class="ring">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          </span>
+        </a>
+        <figcaption class="hero-content">
+          <div class="hero-kicker">Now Playing</div>
+          <div class="hero-title">Ibom News Hour</div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#signin">Start Free Trial</a>
+            <a class="btn btn-outline" href="#schedule">See Schedule</a>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+
+  <!-- Schedule -->
+  <section class="section" id="schedule">
+    <div class="container">
+      <div class="tag">Schedule</div>
+      <h2 style="margin:.25rem 0 1rem">Today on Ibom TV</h2>
+      <div class="schedule">
+        <table aria-label="Program schedule">
+          <thead>
+            <tr><th>Time</th><th>Program</th><th>Genre</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>06:00</td><td>Morning Rise</td><td>Lifestyle</td></tr>
+            <tr><td>08:00</td><td>Market Morning</td><td>Business</td></tr>
+            <tr><td>12:00</td><td>News</td><td>News</td></tr>
+            <tr><td>18:00</td><td>Regional Headlines</td><td>News</td></tr>
+            <tr><td>20:00</td><td>Super story</td><td>Drama</td></tr>
+            <tr><td>22:00</td><td>Men's talk</td><td>Lifestyle</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+<section class="section" id="about" style="padding-bottom:0">
+    <div class="container">
+      <div class="grid">
+        <div class="col-6">
+          <h2>About Ibom TV</h2>
+          <p>Ibom TV brings the best of Nigerian stories to the world through live channels and a growing on‑demand library. We champion local creators and serve audiences with trustworthy news, sports, and entertainment.</p>
+          <p><strong>Available on:</strong> Web, Mobile, Smart TV</p>
+          
+        </div>
+        <div class="col-6">
+          <article class="card">
+            <div class="meta">
+              <h1>Contact Us</h1>
+              <p>Email: hello@ibom.tv</p>
+              <p>Press: press@ibom.tv</p>
+              <p>Advertise: ads@ibom.tv</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container foot-grid">
+      <div>
+        <div class="logo" style="margin-bottom:.5rem">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="logo-text" style="color:#eaf6ff">Ibom <span class="accent">TV</span></span>
+        </div>
+        <p style="max-width:46ch; color:#c2e2ff">Stream the stories that matter. News, sports and culture from Akwa Ibom and beyond.</p>
+      </div>
+      <div>
+        <h4 style="margin-top:0">Explore</h4>
+        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:.4rem">
+          <li><a href="#shows">Shows</a></li>
+          <li><a href="#on-demand">On‑Demand</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="margin-top:0">Company</h4>
+        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:.4rem">
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="margin-top:0">Legal</h4>
+        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:.4rem">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container" style="margin-top:24px; border-top:1px solid rgba(255,255,255,.15); padding-top:16px; display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap">
+      <small>© <span id="year"></span> Ibom TV. All rights reserved.</small>
+      <div style="display:flex; gap:.6rem">
+        <a class="pill" href="#">Facebook</a>
+
+        <a class="pill" href="#">Instagram</a>
+        <a class="pill" href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- CSS-only modals (Sign in / Subscribe) -->
+  <div class="modal" id="signin" role="dialog" aria-modal="true" aria-label="Sign in">
+    <div class="modal-card">
+      <div class="modal-head">
+        <strong>Sign in</strong>
+        <a class="close" href="#" aria-label="Close">×</a>
+      </div>
+      <div class="modal-body">
+        <form>
+          <label class="field">
+            <span>Email</span>
+            <input class="input" type="email" required placeholder="you@example.com"/>
+          </label>
+          <label class="field">
+            <span>Password</span>
+            <input class="input" type="password" required placeholder="••••••••"/>
+          </label>
+          <div style="display:flex; gap:.6rem; align-items:center; justify-content:space-between; margin-top:.5rem">
+            <a class="modal-link" href="#">Forgot password?</a>
+            <button class="btn btn-primary" type="submit">Sign in</button>
+          </div>
+          <p style="margin-top:12px; color:#4b5563">No account? <a class="modal-link" href="#subscribe">Start your free trial</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="subscribe" role="dialog" aria-modal="true" aria-label="Subscribe">
+    <div class="modal-card">
+      <div class="modal-head">
+        <strong>Subscribe to Ibom TV</strong>
+        <a class="close" href="#" aria-label="Close">×</a>
+      </div>
+      <div class="modal-body">
+        <form>
+          <label class="field">
+            <span>Full name</span>
+            <input class="input" type="text" required placeholder="Your name"/>
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input class="input" type="email" required placeholder="you@example.com"/>
+          </label>
+          <label class="field">
+            <span>Plan</span>
+            <select class="input">
+              <option>Monthly – ₦1,500</option>
+              <option>Quarterly – ₦4,000</option>
+              <option>Annual – ₦14,000</option>
+            </select>
+          </label>
+          <button class="btn btn-primary" type="submit">Start Free Trial</button>
+          <p style="margin-top:10px; color:#4b5563">By continuing you agree to our <a class="modal-link" href="#">Terms</a>.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
